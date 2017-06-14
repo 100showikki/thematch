@@ -1,0 +1,257 @@
+/* project
+----------------------------------- */
+.child.project #mainvisual {
+	background: url(../../images/pages/project/project_mainvisual.jpg) no-repeat;
+	background-size: cover;
+}
+#project_detail #sec01 #sec01_text {
+	position: relative;
+	height: 176px;
+	width: 1100px;
+	margin: 290px auto 0 auto;
+}
+#project_detail #sec01 #sec01_text #standard {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+	margin: auto;
+	width: 327px;
+}
+#project_detail #sec01 #sec01_text #partner {
+	position: absolute;
+	left: 0;
+}
+#project_detail #sec01 #sec01_text #consultant {
+	position: absolute;
+	right: 0;
+}
+
+
+#project_detail .case .ac_content dd {
+	display: none;
+}
+#project_detail .case {
+	border-bottom: 1px solid #fff;
+}
+#project_detail .case .first {
+	padding: 50px 0 0 0;
+	background: #1a1717;
+}
+#project_detail .case .first.open {
+	background: #1a1717;
+}
+#project_detail .case .photo {
+	background: #1a1717;
+	padding: 0 0 50px 0;
+	text-align: center;
+}
+#project_detail .case .inner {
+	width: 1064px;
+	margin: auto;
+}
+#project_detail .case .first .left {
+	float: left;
+	width: 625px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 26px;
+}
+#project_detail .case .first .right {
+	float: right;
+	width: 370px;
+	text-align: right;
+	padding-top: 90px;
+}
+#project_detail .case .left {
+	padding-top: 90px;
+}
+#project_detail .case .third {
+	background: #695d5a;
+	padding: 50px 0;
+	margin-top: 30px;
+}
+#project_detail .one_stop_matching {
+	min-width: 1200px;
+	margin: auto;
+}
+#project_detail .one_stop_matching span {
+	text-align: center;
+	width: 143px;
+	/*margin: auto;*/
+	display: block;
+	position: relative;
+}
+#project_detail .one_stop_matching span:after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: url(../../images/icon_circle_arrow_black.png) no-repeat;
+	position: absolute;
+	top: 60px;
+	right: -18%;
+}
+#project_detail .one_stop_matching .text span {
+	background: #fff;
+	font-size: 16px;
+	padding: 47px 0 46px 0;
+	border-radius: 72px;
+}
+#project_detail .one_stop_matching .arrow span {
+	display: block;
+	margin: auto;
+	width: 20px;
+}
+#project_detail .one_stop_matching .text.ichi span {
+	padding: 59px 0;
+}
+#project_detail .one_stop_matching .text.san span {
+	padding: 34px 0;
+}
+#project_detail .third .left {
+	width: 40%;
+	float: left;
+	/*margin-right: 35px;*/
+	padding-top: 0;
+}
+#project_detail .third .right {
+	width: 55%;
+	float: right;
+	color: #fff;
+}
+#project_detail .third .right h3 {
+	font-size: 24px;
+}
+.case_number {
+	font-size: 70px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #fff;
+	vertical-align: bottom;
+	line-height: 1;
+}
+.case_number span {
+	font-size: 180px;
+	vertical-align: baseline;
+}
+.case .first h2 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 36px;
+	line-height: 1.4;
+}
+#project_detail #merit {
+    padding: 50px 0 70px 0;
+    text-align: center;
+}
+#project_detail #merit a {
+    display: inline-block;
+    background: url(../../images/pages/project/icon_arrow.png) no-repeat 95%;
+    padding: 10px 30px;
+    border: 1px solid #1a1717;
+    color: #1a1717;
+    font-size: 18px;
+
+}
+
+/*タブレット*/
+@media (min-width: 768px) and (max-width: 1200px)  {
+	#project_detail .case .inner {
+		width: auto;
+	}
+	#project_detail .case .first .left {
+		width: 59.52%;
+	}
+	#project_detail .case .first .right {
+		width: 36%;
+	}
+	#project_detail .case .first {
+		padding: 50px 20px 0 20px;
+	}
+	#project_detail .case .third {
+		padding: 50px 20px;
+	}
+	#project_detail .one_stop_matching {
+		min-width: auto;
+	}
+	#project_detail #merit {
+		padding: 50px 20px;
+	}
+	.case_number span {
+		font-size: 140px;
+	}
+
+
+}
+
+
+/*スマホ*/
+@media (max-width: 767px)  {
+	#project_detail .case .inner {
+		width: auto;
+	}
+	#project_detail .case .first .left {
+		width: 100%;
+		float: none;
+		padding-top: 30px;
+	}
+	#project_detail .case .first .right {
+		width: 100%;
+		float: none;
+		padding-top: 0;
+	}
+	#project_detail .case .first {
+		padding: 50px 20px 0 20px;
+	}
+	#project_detail .case .third {
+		padding: 50px 20px;
+	}
+	#project_detail .one_stop_matching {
+		min-width: auto;
+	}
+	#project_detail #merit {
+		padding: 50px 20px;
+	}
+	.case_number {
+		font-size: 30px;
+	}
+	.case_number span {
+		font-size: 60px;
+	}
+	.case .first h2 {
+		font-size: 20px;
+	}
+	#project_detail .one_stop_matching .text span {
+		font-size: 12px;
+		padding: 33px 0 31px 0;
+	}
+	#project_detail .one_stop_matching span {
+		width: 100px;
+	}
+	#project_detail .one_stop_matching .text.san span {
+		padding: 23px 0;
+	}
+	#project_detail .one_stop_matching span:after {
+		top: 43px;
+		right: -30%;
+	}
+	#project_detail .one_stop_matching .text.ichi span {
+		padding: 42px 0;
+	}
+	#project_detail #merit a {
+	    display: block;
+
+	}
+	#project_detail .third .left {
+		width: auto;
+		float: none;
+		margin-bottom: 20px;
+	}
+	#project_detail .third .right {
+		width: auto;
+		float: none;
+	}
+	#project_detail .case .first .right {
+		text-align: left;
+	}
+
+}

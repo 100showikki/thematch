@@ -1,0 +1,317 @@
+/* project
+----------------------------------- */
+.child.project #mainvisual {
+	background: url(../../images/pages/project/project_mainvisual.jpg) no-repeat;
+	background-size: cover;
+}
+#project #sec01 #sec01_text {
+	position: relative;
+	height: 176px;
+	width: 1100px;
+	margin: 290px auto 0 auto;
+}
+#project #sec01 #sec01_text #standard {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+	margin: auto;
+	width: 327px;
+}
+#project #sec01 #sec01_text #partner {
+	position: absolute;
+	left: 0;
+}
+#project #sec01 #sec01_text #consultant {
+	position: absolute;
+	right: 0;
+}
+
+
+#project .case {
+	border-bottom: 1px solid #fff;
+}
+#project .case .one_post {
+	padding: 50px 0;
+}
+#project .case .one_post:nth-child(odd) {
+	background: #fff;
+}
+#project .case .one_post:nth-child(even) {
+	background: #1a1717;
+}
+#project .case .one_post:first-child {
+	padding: 50px 0 25px 0;
+	background: #1a1717;
+}
+#project .case .one_post:nth-child(2) {
+	background: #857b79;
+	width: 50%;
+	float: left;
+	padding: 0;
+}
+#project .case .one_post:nth-child(3) {
+	background: #695d5a;
+	color: #fff;
+	width: 50%;
+	float: right;
+	padding: 0;
+}
+#project .case .one_post:nth-child(2) > .wrap {
+	padding: 50px 30px 25px 0;
+	border: 1px solid #fff;
+	border-left: none;
+}
+#project .case .one_post:nth-child(3) > .wrap {
+	padding: 50px 0 25px 30px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+#project .case .one_post:nth-child(2) .wrap2 {
+	max-width: 495px;
+	float: right;
+}
+#project .case .one_post:nth-child(3) .wrap2 {
+	max-width: 495px;
+	float: left;
+}
+#project .case .one_post:nth-child(4) {
+	clear: both;
+}
+#project .case .photo {
+	/*background: #1a1717;*/
+	padding: 0 0 25px 0;
+	text-align: center;
+	display: none;
+}
+#project .case .one_post:first-child .photo ,
+#project .case .one_post:nth-child(2) .photo,
+#project .case .one_post:nth-child(3) .photo {
+	display: block;
+}
+#project .case .one_post .photo a {
+	display: block;
+}
+#project .case .one_post:nth-child(2) .inner,
+#project .case .one_post:nth-child(3) .inner {
+	width: auto;
+}
+#project .case .inner {
+	width: 1064px;
+	margin: auto;
+}
+#project .case .photo {
+    max-width: 1050px;
+    margin: auto;
+}
+#project .case .one_post .left {
+	float: left;
+	width: 625px;
+	font-size: 14px;
+	line-height: 26px;
+}
+#project .case .one_post .right {
+	float: right;
+	width: 370px;
+	text-align: right;
+}
+#project .case .one_post:nth-child(even) .left {
+	color: #fff;
+}
+#project .case .one_post:nth-child(odd) .left {
+	color: #1a1717;
+}
+#project .case .one_post:first-child .left {
+	color: #fff;
+}
+#project .case .one_post:nth-child(2) .left,
+#project .case .one_post:nth-child(3) .left {
+	float: none;
+	width: auto;
+	color: inherit;
+}
+#project .case .one_post:nth-child(2) .right,
+#project .case .one_post:nth-child(3) .right {
+	float: none;
+	width: auto;
+}
+.case_number {
+	font-size: 70px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #fff;
+	vertical-align: bottom;
+	line-height: 1;
+	text-align: right;
+}
+.one_post:nth-child(odd) .case_number {
+	color: #1a1717;
+}
+.one_post:first-child .case_number {
+	color: #fff;
+}
+#project .case .one_post:nth-child(2) .case_number {
+	color: #1a1717;
+}
+#project .case .one_post:nth-child(3) .case_number {
+	color: #fff;
+}
+.case_number span {
+	font-size: 180px;
+	vertical-align: baseline;
+}
+.case .one_post h2 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 36px;
+	line-height: 1.3;
+	height: 2.6em;
+}
+.one_post .button {
+	margin: auto;
+	max-width:  1050px;
+	text-align: left;
+}
+.one_post:first-child .button,
+.one_post:nth-child(2) .button,
+.one_post:nth-child(3) .button {
+	margin: auto;
+	max-width:  1050px;
+	text-align: center;
+}
+.one_post .button a {
+	display: inline-block;
+	margin: auto;
+	width:  168px;
+	padding: 10px 0;
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	background: url(../../images/pages/contents/icon_arrow02.png) no-repeat 95%;
+}
+.one_post:nth-child(odd) .button a {
+	color: #1a1717;
+	border: 1px solid #1a1717;
+	background: url(../../images/pages/contents/icon_arrow.png) no-repeat 95%;
+}
+.one_post:nth-child(even) .button a {
+	color: #fff;
+	border: 1px solid #fff;
+	background: url(../../images/pages/contents/icon_arrow02.png) no-repeat 95%;
+}
+.one_post:first-child .button a,
+.one_post:nth-child(3) .button a {
+	color: #fff;
+	border: 1px solid #fff;
+	background: url(../../images/pages/contents/icon_arrow02.png) no-repeat 95%;
+}
+.one_post .button a:hover {
+	text-decoration: none;
+	color: #aaa;
+}
+#project .case .one_post:nth-child(2) .button a {
+	border: 1px solid #1a1717;
+	color: #1a1717;
+	background: url(../../images/pages/contents/icon_arrow.png) no-repeat 95%;
+}
+#project .case .one_post:nth-child(2) .button a:hover {
+	color: #ccc;
+}
+#next10 {
+	text-align: center;
+	margin: 30px 0 50px 0;
+}
+
+
+/*タブレット*/
+@media (min-width: 768px) and (max-width: 1200px)  {
+	#project .case .inner {
+		width: auto;
+	}
+	#project .case .one_post .left {
+		width: 59.52%;
+	}
+	#project .case .one_post .right {
+		width: 36%;
+	}
+	#project .case .one_post {
+		padding: 50px 20px;
+	}
+	.case_number span {
+		font-size: 140px;
+	}
+}
+
+
+/*スマホ*/
+@media (max-width: 767px)  {
+	#project .case .inner {
+		width: auto;
+	}
+	#project .case .one_post .left {
+		width: 100%;
+		float: none;
+		padding-top: 30px;
+	}
+	#project .case .one_post .right {
+		width: 100%;
+		float: none;
+		padding-top: 0;
+	}
+	#project .case .one_post {
+		padding: 50px 20px 0 20px;
+	}
+	.case_number {
+		font-size: 30px;
+	}
+	.case_number span {
+		font-size: 60px;
+	}
+	.case .one_post h2 {
+		font-size: 20px;
+	}
+
+	#project .case .one_post {
+		border: none;
+		border-bottom: 1px solid #fff;
+		padding: 40px 10px !important;
+	}
+	#project .case .one_post:nth-child(2) {
+		width: auto;
+		float: none;
+	}
+	#project .case .one_post:nth-child(3) {
+		color: #fff;
+		width: auto;
+		float: none;
+	}
+	#project .case .one_post > .wrap {
+		padding: 0;
+	}
+	#project .case .one_post:nth-child(2) > .wrap {
+		border: none;
+		padding: 0;
+	}
+	#project .case .one_post:nth-child(3) > .wrap {
+		border: none;
+		padding: 0;
+	}
+	#project .case .one_post:nth-child(2) .wrap2 {
+		max-width: none;
+		float: none;
+	}
+	#project .case .one_post:nth-child(3) .wrap2 {
+		max-width: none;
+		float: none;
+	}
+	.one_post .button a {
+		display: block;
+		width: auto;
+	}
+	#project .case .one_post .left {
+		padding-top: 10px;
+	}
+	.case .one_post h2 {
+		margin-bottom: 10px;
+	}
+
+}

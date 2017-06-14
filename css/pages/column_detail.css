@@ -1,0 +1,322 @@
+.child.column #mainvisual {
+	background: url(../../images/pages/column/column_mainvisual.jpg) no-repeat;
+	background-size: cover;
+}
+#container {
+	border-top: 1px solid #695d5a;
+}
+#column_list > .inner {
+	max-width: 1170px;
+	margin: auto;
+	padding: 0;
+}
+#column_list > .inner #main_column {
+	width: 780px;
+	padding: 40px;
+	float: left;
+}
+#column_list > .inner #sub_column {
+	width: 250px;
+	padding: 40px 30px;
+	background: #e9e7e6;
+	float: right;
+}
+#column_list #main_column .category {
+	border: 1px solid #695d5a;
+	padding: 3px 5px;
+	font-size: 12px;
+	margin-left: 5px;
+}
+#column_list #main_column h2 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+#column_list #main_column .date {
+	font-size: 16px;
+}
+#column_list #main_column .editor {
+	margin-bottom: 20px;
+}
+#column_list #main_column .editor .photo {
+	width: 43px;
+	height: 43px;
+	border-radius: 25px;
+	border: 4px solid #e9e7e6;
+	display: inline-block;
+	margin-right: 5px;
+}
+#column_list #main_column img {
+	max-width: 100%;
+}
+#column_list .eyecatch {
+	margin-bottom: 40px;
+}
+#column_list #article_body {
+	line-height: 1.8;
+	margin-bottom: 80px;
+}
+#column_list #article_body p {
+	margin: 2em 0;
+}
+#column_list #editor_data {
+	display: table;
+	width: 100%;
+	border-top: 1px solid #695d5a;
+	border-bottom: 1px solid #695d5a;
+}
+#column_list #editor_data .editor {
+	display: table-cell;
+	width: 20%;
+	padding: 30px 0;
+}
+#column_list #editor_data .plofile {
+	display: table-cell;
+	width: 80%;
+	padding: 30px 0;
+}
+#column_list #editor_data .plofile h3 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	line-height: 1;
+}
+#column_list #prev_next {
+	margin: 20px 0 70px 0;
+}
+#column_list #prev_next li {
+	float: left;
+	width: 50%;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
+}
+#column_list #prev_next li:last-child {
+	text-align: right;
+}
+
+
+#column_list #sub_column h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#column_list #sub_column .widget_box {
+	margin-bottom: 60px;
+}
+#column_list #sub_column .widget_box.category li {
+	border-bottom: 1px solid #695d5a;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+#column_list #sub_column .widget_box.category li a:hover {
+	text-decoration: none;
+}
+#column_list #sub_column .widget_box.member .editor {
+	margin-bottom: 20px;
+}
+#column_list #sub_column .widget_box.member .editor .photo {
+	width: 43px;
+	height: 43px;
+	border-radius: 25px;
+	display: inline-block;
+	margin-right: 5px;
+}
+#column_list #sub_column .widget_box.member .editor .photo img {
+	max-width: 110%;
+}
+#column_list #sub_column .widget_box.member li a:hover {
+	text-decoration: none;
+}
+
+
+
+/*タブレット*/
+@media (min-width: 768px) and (max-width: 1200px)  {
+	#column_list > .inner #main_column {
+		width: 67.5%;
+		padding: 0 3%;
+	}
+	#column_list > .inner #sub_column {
+		width: 20.5%;
+		padding: 40px 3%;
+	}
+	#column_list #main_column .box .thumbnail {
+		float: left;
+		max-width: 30%;
+	}
+	#column_list #main_column .box .text {
+		float: right;
+		width: 65%;
+	}
+	#column_list #main_column .box:first-child .thumbnail {
+		float: left;
+		max-width: 40%;
+	}
+	#column_list #main_column .box:first-child .text {
+		float: right;
+		width: 55%;
+	}
+	#column_list #main_column .box .editor {
+		position: static;
+		float: right;
+	}
+
+}
+
+/*スマホ*/
+@media (max-width: 767px)  {
+	#column_list > .inner #main_column {
+		width: auto;
+		padding: 20px 10px;
+		float: none;
+		background: #fff;
+	}
+	#column_list > .inner #sub_column {
+		width: 90%;
+		max-height: 400px;
+		padding: 0 5%;
+		float: none;
+		position: fixed;
+		top: 50px;
+		z-index: -1;
+		overflow: scroll;
+		background: none;
+		display: none;
+		/*margin-top: -240px;*/
+	}
+	#column_list > .inner #sub_column.z-index {
+		z-index: 0;
+	}
+	.side-open {
+		position: fixed;
+		background: #e9e7e6;
+		transition-duration:0.5s;
+	}
+	body {
+		transition-duration:1s;
+	}
+	.side-open #container,
+	.side-open #mainvisual,
+	.side-open footer {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+		transition-duration:0.5s;
+	}
+	#container,
+	#mainvisual,
+	#subcolumn,
+	footer {
+		transition-duration:0.5s;
+	}
+	.side-open #container #sub_column {
+		transform: translate3d(100%, 0, 0);
+		transition-duration:0.5s;
+		display: block;
+	}
+
+
+	#column_list #main_column .text {
+		width: 50%;
+		max-width: none;
+	}
+	#column_list #main_column .thumbnail {
+		width: 46%;
+		max-width: none;
+	}
+	#column_list #main_column h2 {
+		margin: 10px 0;
+		line-height: 1.4;
+		font-size: 14px;
+	}
+	#column_list #main_column .editor {
+		position: static;
+		margin-bottom: 10px;
+	}
+	#column_list #main_column .editor .photo {
+		width: 20px;
+		height: 20px;
+		border-radius: 12px;
+		border: 2px solid #e9e7e6;
+		display: inline-block;
+		margin-right: 5px;
+	}
+	#column_list #main_column .editor .photo img {
+		vertical-align: top;
+	}
+	#sp_menuopen {
+		position: absolute;
+		top: 128px;
+		right: 0;
+		z-index: 2;
+	}
+	#sp_menuopen.fixed {
+		position: fixed;
+		top: 60px;
+		z-index: 10;
+	}
+	#sp_menuopen {
+		background: #e9e7e6;
+		font-family: 'Fjalla One', sans-serif;
+		width: 100px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 14px;
+	}
+	#sp_menuopen:before {
+		content: '';
+		display: block;
+		width: 14px;
+		height: 14px;
+		border: 2px solid #1a1717;
+		border-radius: 10px;
+		position: absolute;
+		top: -2px;
+		left: 50px;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	#sp_menuopen:after {
+		content: '+';
+		font-size: 16px;
+		width: 14px;
+		position: absolute;
+		top: -1px;
+		left: 50px;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+
+
+	#pager li a {
+		display: block;
+		width: 20px;
+		height: 20px;
+		border: 1px solid #695d5a;
+		border-radius: 15px;
+		line-height: 22px;
+		font-size: 12px;
+	}
+	#pager li span {
+		display: block;
+		width: 20px;
+		height: 20px;
+		border: 1px solid #1a1717;
+		background: #1a1717;
+		border-radius: 15px;
+		line-height: 22px;
+		color: #fff;
+		font-size: 12px;
+	}
+
+
+	#column_list #editor_data .editor {
+		width: 40%;
+		padding: 30px 0;
+	}
+	#column_list #editor_data .plofile {
+		width: 60%;
+		padding: 30px 0;
+	}
+}

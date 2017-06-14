@@ -1,0 +1,349 @@
+/* contents_detail */
+.child.contents #mainvisual {
+	background: url(../../images/pages/contents/contents_mainvisual.jpg) no-repeat;
+	background-size: cover;
+}
+#contents_detail #sec01 {
+	background: #1a1717;
+	padding: 50px 0;
+	color: #fff;
+	text-align: center;
+}
+#contents_detail #sec01 .sub_title {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+#contents_detail #sec01 h2 {
+	font-size: 24px;
+}
+#contents_detail #sec01 .title {
+	position: relative;
+}
+#contents_detail #sec01 .title img {
+	position: absolute;
+	right: -550px;
+	left: 0;
+	bottom: 0;
+	width: 76px;
+	margin: auto;
+}
+#contents_detail #sec01 .movie {
+	margin: 30px auto;
+}
+#contents_detail .movie img {
+	height: auto;
+}
+
+#contents_detail #sec01 p {
+	text-align: left;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contents_detail #sec02 {
+	padding: 50px 0;
+	background: #695d5a;
+}
+#contents_detail #sec02 h2 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 36px;
+	line-height: 1;
+	color: #1a1717;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#contents_detail .slick-slide {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#contents_detail #button {
+	padding: 40px 0 20px 0;
+	border-bottom: 1px solid #1a1717;
+}
+#contents_detail #button ul {
+	text-align: center;
+	width: 600px;
+	margin: auto;
+}
+#contents_detail #button li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px;
+	margin-bottom: 20px;
+}
+#contents_detail #button li a {
+	border: 1px solid #1a1717;
+	padding: 10px 0;
+	width: 268px;
+	display: block;
+	font-size: 18px;
+	background: url(../../images/pages/contents/icon_arrow.png) no-repeat 95%;
+}
+#contents_detail #button li a:hover {
+	text-decoration: none;
+	color: #aaa;
+}
+
+/*wpの編集画面に貼付け*/
+#contents_detail #sec03 {
+	text-align: center;
+	margin: 50px 0;
+}
+#contents_detail #sec03 h2 {
+	color: #695d5a;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+#contents_detail #sec04 {
+	background: #e9e7e6;
+	padding: 50px 0;
+}
+#contents_detail #sec04 .inner {
+	background: #e9e7e6;
+	padding-bottom: 80px;
+}
+#contents_detail #sec04 h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #1a1717;
+	margin-bottom: 70px;
+}
+#contents_detail #sec04 .inner {
+	max-width: 1050px;
+	margin: auto;
+	font-size: 14px;
+}
+#contents_detail #sec04 .photo {
+	float: left;
+	width: 44.57%;
+}
+#contents_detail #sec04 .data {
+	float: right;
+	width: 52%;
+}
+#contents_detail #sec04 h3 {
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid #1a1717;
+}
+#contents_detail #sec04 h4 {
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid #1a1717;
+	padding: 0 10px 2px 10px;
+	margin-bottom: 5px;
+}
+#contents_detail #sec04 .text p  {
+	padding: 0 10px;
+	margin-top: 5px;
+}
+#mainvisual #catch p {
+	width: 280px;
+}
+
+/*20170207 追加*/
+#contents_detail #sec02_2 {
+	margin: 50px 0 0 0;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #1a1717;
+}
+#contents_detail #sec02_2 h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #695d5a;
+	margin-bottom: 70px;
+}
+#contents_detail #sec02_2 .holder {
+	width: 32%;
+	float: left;
+}
+#contents_detail #sec02_2 .holder:nth-child(2) {
+	margin: 0 2%;
+}
+#contents_detail #sec02_2 .holder p {
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+#sec03 .merit {
+	width: 32%;
+	float: left;
+}
+#sec03 .merit:nth-child(2) {
+	margin: 0 2%;
+}
+#sec03 .merit:nth-child(2) .merit_text:before {
+	content: '';
+	background: url(../../images/pages/contents/icon_infinity.png) #fff;
+	background-size: 30px 16px;
+	width: 30px;
+	height: 16px;
+	display: block;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -27px;
+}
+#sec03 .merit:nth-child(2) .merit_text:after {
+	content: '';
+	background: url(../../images/pages/contents/icon_infinity.png) #fff;
+	background-size: 30px 16px;
+	width: 30px;
+	height: 16px;
+	display: block;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: -27px;
+}
+#sec03 .icon {
+	height: 55px;
+}
+#sec03 .merit_text {
+	border: 1px solid #1a1717;
+	border-radius: 5px;
+	padding: 5%;
+	position: relative;
+	display: table;
+	width: 90%;
+}
+#sec03 .merit_text > div {
+	display: table-cell;
+}
+#contents_detail .slick-slide {
+	outline: none;
+}
+.slick-dots {
+	text-align: center;
+}
+.slick-dots li {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.slick-dots button {
+	border: 1px solid #1a1717;
+    text-indent: -9999px;
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+}
+.slick-dots li.slick-active button {
+	background: #1a1717;
+}
+.kyouryoku {
+	margin-top: 40px;
+	text-align: center;
+}
+.kyouryoku .logo {
+	margin-bottom: 20px;
+}
+/*20170207 追加 ここまで*/
+
+
+/*タブレット*/
+@media (min-width: 768px) and (max-width: 1200px)  {
+	#contents_detail #sec01 .movie iframe {
+		width: 100%;
+	}
+
+	/* wpの編集画面に貼付け */
+	#contents_detail #sec03,
+	#contents_detail #sec04 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/*スマホ*/
+@media (max-width: 767px)  {
+	#mainvisual #catch p {
+		width: 70%;
+	}
+	#contents_detail #sec01,
+	#contents_detail #sec02,
+	#contents_detail #sec03,
+	#contents_detail #sec04 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#contents_detail #sec01 .title {
+		text-align: left;
+		/*background: url(../../images/pages/contents/nihonhatsu.png) no-repeat right;*/
+		background-size: 40px 40px;
+		/*padding-right: 45px;*/
+	}
+	#contents_detail #sec01 .title img {
+		display: none;
+	}
+	#contents_detail #sec01 .title .sub_title {
+		font-size: 10px;
+	}
+	#contents_detail #sec01 h2,
+	#contents_detail #sec02 h2,
+	#contents_detail #sec03 h2,
+	#contents_detail #sec04 h2 {
+		font-size: 18px;
+	}
+	#contents_detail #sec01 .movie iframe {
+		width: 100%;
+		height: 200px;
+	}
+	#contents_detail #sec01 p {
+		text-align: left;
+		width: auto;
+	}
+	#contents_detail #button ul {
+		width: auto;
+	}
+	#contents_detail #button li {
+		display: block;
+	}
+	#contents_detail #button li a {
+		width: 100%;
+	}
+
+	/* wpの編集画面に貼付け */
+	#contents_detail #sec04 h2 {
+		margin-bottom: 50px;
+	}
+	#contents_detail #sec04 .photo {
+		float: none;
+		width: auto;
+		margin-bottom: 20px;
+	}
+	#contents_detail #sec04 .data {
+		float: none;
+		width: auto;
+	}
+
+
+	/*20170207 追加*/
+	#contents_detail #sec02_2 .holder:nth-child(2),
+	#contents_detail #sec02_2 .holder {
+	    margin: 0 10px 20px 10px;
+	}
+	#contents_detail #sec02_2 .holder {
+	    width: auto;
+	    float: none;
+	}
+	#sec03 .merit {
+	    width: auto;
+	    float: none;
+	    margin-bottom: 20px;
+	}
+	#sec03 .merit:nth-child(2) {
+		margin-left: 0;
+		margin-right: 0;
+	    margin-bottom: 20px;
+	}
+	#sec03 .merit:nth-child(2) .merit_text:before,
+	#sec03 .merit:nth-child(2) .merit_text:after {
+		display: none;
+	}
+	/*20170207 追加 ここまで*/
+
+}

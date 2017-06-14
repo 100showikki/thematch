@@ -1,0 +1,85 @@
+/* contents
+----------------------------------- */
+.child.works #mainvisual {
+	background: url(../../images/pages/contents/contents_mainvisual.jpg) no-repeat;
+	background-size: cover;
+}
+.child.works #catch p {
+	font-size: 13px;
+	line-height: 1.2;
+}
+
+#works_post_list {
+	border-top: 1px solid #333;
+	padding: 40px 0;
+}
+#works_post_list .works_post {
+	border-bottom: 1px solid #333;
+	margin-bottom: 30px;
+	padding: 30px 0 10px;
+}
+#works_post_list .works_post .clearfix {
+	margin-bottom: 10px;
+}
+#works_post_list .works_post .clearfix img {
+	float: left;
+	margin-right: 2%;
+	width: 32%;
+}
+#works_post_list .works_post .clearfix img:last-child {
+	margin: 0px;
+}
+#works_post_list .works_post p {
+	font-size: 13px;
+	line-height: 1.4;
+	margin: 0px;
+}
+#works_post_list .works_post p.works_date {
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+#works_post_list .works_post h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.nextBtn {
+	float: right;
+}
+.prevBtn {
+	float: left;
+}
+.nextBtn a,
+.prevBtn a {
+	border: 1px solid #333;
+	display: inline-block;
+	padding: 5px 25px;
+	text-decoration: none;
+}
+.nextBtn a:hover,
+.prevBtn a:hover {
+	opacity: 0.7;
+}
+
+
+/*タブレット*/
+@media (max-width: 1050px)  {
+	#works_post_list {
+		padding: 0 20px;
+	}
+}
+
+/*スマホ*/
+@media (max-width: 767px)  {
+	#mainvisual #catch p {
+		width: 70%;
+	}
+}
+
+@media (max-width: 500px)  {
+	#works_post_list .works_post .clearfix img {
+		float: none;
+		margin: 0 auto 10px !important;
+		width: 100%;
+	}
+}
