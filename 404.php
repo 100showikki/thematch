@@ -1,3 +1,3 @@
 404
-okamura
-terashima
+江藤追記
+okamuraterashima
