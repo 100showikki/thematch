@@ -4,3 +4,5 @@ okamuraterashima
 岡村参上！！
 
 岡村復活！！
+
+あいうえおカキクケコ
